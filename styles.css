@@ -1,0 +1,128 @@
+@font-face {
+  font-family: Digital-7;
+  src: url(./font/digital-7.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #7d56f3;
+}
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #fff;
+  font-family: fantasy;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  /* width: min(60%, 28.12em);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%; */
+}
+.container * {
+  border: none;
+  outline: none;
+}
+.input-wrapper {
+  width: 50rem;
+  background-color: #ffffff;
+  padding: 1.87em 1.5em;
+  border-radius: 0.5em;
+  box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+  margin-bottom: 3.12em;
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1em;
+}
+input,
+button {
+  font-weight: 500;
+  border-radius: 0.31em;
+}
+input {
+  background-color: #eeeeff;
+  color: #080808;
+  padding: 1.2em 1.25em;
+  font-size: 1.5rem;
+  font-family: Digital-7;
+}
+button {
+  font-size: 1rem;
+  font-family: fantasy;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background-color: #7d56f3;
+  box-shadow: 0 0.5rem 0.4rem 0.2rem #250b72;
+  transition: ease 0.3s;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.96, 0.96);
+}
+.output-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 50rem;
+}
+.output-wrapper div {
+  height: 6.25rem;
+  width: 10.25rem;
+  background-color: #ffffff;
+  border-radius: 0.31em;
+  color: #080808;
+  display: grid;
+  place-items: center;
+  padding: 1em 0;
+  box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+}
+span {
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: Digital-7;
+  letter-spacing: 4px;
+}
+p {
+  font-size: 1rem;
+  color: #555555;
+  font-weight: 500;
+  font-family: Digital-7;
+  letter-spacing: 3px;
+  font-size: 1rem;
+}
+.output-wrapper2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    width: 50rem;
+  }
+  .output-wrapper2 div {
+    height: 6.25rem;
+    width: 10.25rem;
+    background-color: #ffffff;
+    border-radius: 0.31em;
+    color: #080808;
+    display: grid;
+    place-items: center;
+    padding: 1em 0;
+    box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
+  }
