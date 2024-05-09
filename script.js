@@ -1,4 +1,4 @@
-document.getElementById("calc-age-btn").addEventListener("click", function () {
+document.getElementById("calc-age-btn").addEventListener("click", function (event) {
   event.preventDefault();
   // Get the birth date value from the input
   let birthdate = document.getElementById("birthdate").value;
